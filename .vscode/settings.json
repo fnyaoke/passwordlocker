@@ -1,13 +1,23 @@
 {
     "cSpell.ignoreWords": [
+        "chmod",
         "credentials",
+        "credentialstest",
         "findbyaccount",
+        "firstname",
         "flonyaks",
         "fname",
         "nyaoke",
+        "passwordlocker",
+        "runapp",
+        "secondname",
         "sname",
         "test",
         "test findbyaccount",
+        "typein",
         "uname"
+    ],
+    "cSpell.words": [
+        "accountname"
     ]
 }
