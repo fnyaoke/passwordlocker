@@ -44,3 +44,8 @@ class Credentials:
             if (user.username == username and user.password == password):
                 userlogin = user.username
             return userlogin
+    def save_credential(self):
+        '''
+        method to save user credentials
+        '''
+        Credentials.account_credentials.append(self)
