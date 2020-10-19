@@ -33,3 +33,9 @@ def generate_password(Credentials):
     Function that generates random password
     '''
     return Credentials.generate_password()
+def display_credentials():
+    '''
+    Function that displays credential
+    '''
+    return Credentials.display_credentials()
+
