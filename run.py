@@ -43,4 +43,11 @@ def find_by_account(name):
     Function that finds credential by account name
     '''
     return Credentials.find_by_account(name)
+def remove_credential(credential):
+    '''
+    Function that deletes credential
+    '''
+    credential.remove_credential()
+
+
 
