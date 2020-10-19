@@ -28,3 +28,8 @@ def  save_credential(credential):
     Function that saves new credential
     '''
     credential.save_credential()
+def generate_password(Credentials):
+    '''
+    Function that generates random password
+    '''
+    return Credentials.generate_password()
