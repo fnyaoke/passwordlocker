@@ -22,4 +22,17 @@ class users:
         method to save user
         '''
         users.list_user.append(self)
+class Credentials:
+    
+    account_credentials = []
+
+    
+    
+    def __init__(self,username,password,account_name):
+        '''
+         method to initialize properties that each  credentials object will hold
+        '''
+        self.username = username
+        self.password = password
+        self.account_name = account_name
 
