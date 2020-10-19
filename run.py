@@ -17,4 +17,9 @@ def  user_exists(username,password):
     Function that checks if user exits
     '''
     return Credentials.user_exists(username,password)
-
+def create_credential(username,password,account_name):
+    '''
+    Function that creates credential
+    '''
+ 
+    return Credentials(username,password,account_name)
