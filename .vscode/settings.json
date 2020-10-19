@@ -2,8 +2,11 @@
     "cSpell.ignoreWords": [
         "findbyaccount",
         "flonyaks",
+        "fname",
         "nyaoke",
+        "sname",
         "test",
-        "test findbyaccount"
+        "test findbyaccount",
+        "uname"
     ]
 }
