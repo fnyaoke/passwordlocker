@@ -23,3 +23,8 @@ def create_credential(username,password,account_name):
     '''
 
     return Credentials(username,password,account_name)
+def  save_credential(credential):
+    '''
+    Function that saves new credential
+    '''
+    credential.save_credential()
