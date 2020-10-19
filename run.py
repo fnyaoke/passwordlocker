@@ -9,6 +9,6 @@ def create_user(firstname,secondname,username,password):
     return new_user
 def store_user(user):
     '''
-    Function to save user
+    Function to store user information
     '''
     users.store_user(user)
