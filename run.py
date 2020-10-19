@@ -38,4 +38,9 @@ def display_credentials():
     Function that displays credential
     '''
     return Credentials.display_credentials()
+def find_by_account(name):
+    '''
+    Function that finds credential by account name
+    '''
+    return Credentials.find_by_account(name)
 
