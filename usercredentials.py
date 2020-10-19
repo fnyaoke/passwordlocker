@@ -73,3 +73,5 @@ class Credentials:
         for  credential in cls.account_credentials:
             if credential.account_name == name:
                 return credential
+    def remove_credential(self):
+        Credentials.account_credentials.remove(self)
