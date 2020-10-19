@@ -63,3 +63,13 @@ class Credentials:
           method to display credentials
         '''
         return cls.account_credentials
+    @classmethod
+
+    def find_by_account(cls,name):
+        '''
+        method to help user find credentials by account
+        '''
+
+        for  credential in cls.account_credentials:
+            if credential.account_name == name:
+                return credential
