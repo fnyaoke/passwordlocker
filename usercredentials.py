@@ -23,11 +23,9 @@ class users:
         '''
         users.list_user.append(self)
 class Credentials:
-    
+
     account_credentials = []
 
-    
-    
     def __init__(self,username,password,account_name):
         '''
          method to initialize properties that each  credentials object will hold
@@ -36,3 +34,13 @@ class Credentials:
         self.password = password
         self.account_name = account_name
 
+    @classmethod
+    def user_exists(cls, username,password):
+        '''
+        method to check if user exists
+        '''
+        userlogin = ''
+        for user in users.list_user:
+            if (user.username == username and user.password == password):
+                userlogin = user.username
+            return userlogin
